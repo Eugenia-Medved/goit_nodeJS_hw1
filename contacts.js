@@ -25,7 +25,7 @@ function listContacts() {
         }
         const contacts = JSON.parse(data)
         const contact = contacts.find(contact => JSON.stringify(contact.id) === JSON.stringify(contactId));
-        console.log(contact);
+        return console.log(contact);
       })
 
 
