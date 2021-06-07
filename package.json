@@ -1,0 +1,26 @@
+{
+  "name": "goit_node_hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevheniiaBondarenko/goit_node_hw1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevheniiaBondarenko/goit_node_hw1/issues"
+  },
+  "homepage": "https://github.com/YevheniiaBondarenko/goit_node_hw1#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "nodemon": "^2.0.7",
+    "short-id": "0.1.0-1"
+  }
+}
